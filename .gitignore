@@ -1,0 +1,17 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Secrets (if you add API keys locally)
+*.env
+.env.*

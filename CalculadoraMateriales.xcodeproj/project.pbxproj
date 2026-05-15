@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF01 /* CalculadoraMaterialesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR01 /* CalculadoraMaterialesApp.swift */; };
+		BF02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR02 /* ContentView.swift */; };
+		BF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR03 /* Assets.xcassets */; };
+		BF04 /* EstimateModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR04 /* EstimateModels.swift */; };
+		BF05 /* MaterialCalculators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR05 /* MaterialCalculators.swift */; };
+		BF06 /* TradeScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR06 /* TradeScreens.swift */; };
+		BF07 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR07 /* KeychainHelper.swift */; };
+		BF08 /* AISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR08 /* AISettings.swift */; };
+		BF09 /* CalculationSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR09 /* CalculationSnapshotStore.swift */; };
+		BF10 /* ShareExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR10 /* ShareExport.swift */; };
+		BF11 /* AssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR11 /* AssistantView.swift */; };
+		BF12 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR12 /* SettingsView.swift */; };
+		BF13 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR13 /* MainTabView.swift */; };
+		BF14 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR15 /* SubscriptionManager.swift */; };
+		BF15 /* SubscriptionGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR16 /* SubscriptionGateView.swift */; };
+		BF16 /* privacidad.html in Resources */ = {isa = PBXBuildFile; fileRef = FR17 /* privacidad.html */; };
+		BF17 /* soporte.html in Resources */ = {isa = PBXBuildFile; fileRef = FR18 /* soporte.html */; };
+		BF18 /* LegalLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR19 /* LegalLinks.swift */; };
+		BF19 /* BundledLegalWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR20 /* BundledLegalWebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FR00 /* CalculadoraMateriales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculadoraMateriales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR01 /* CalculadoraMaterialesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraMaterialesApp.swift; sourceTree = "<group>"; };
+		FR02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FR03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FR04 /* EstimateModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateModels.swift; sourceTree = "<group>"; };
+		FR05 /* MaterialCalculators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCalculators.swift; sourceTree = "<group>"; };
+		FR06 /* TradeScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeScreens.swift; sourceTree = "<group>"; };
+		FR07 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		FR08 /* AISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISettings.swift; sourceTree = "<group>"; };
+		FR09 /* CalculationSnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationSnapshotStore.swift; sourceTree = "<group>"; };
+		FR10 /* ShareExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExport.swift; sourceTree = "<group>"; };
+		FR11 /* AssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantView.swift; sourceTree = "<group>"; };
+		FR12 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FR13 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		FR14 /* CalcObra.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = CalcObra.storekit; sourceTree = "<group>"; };
+		FR15 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		FR16 /* SubscriptionGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionGateView.swift; sourceTree = "<group>"; };
+		FR17 /* privacidad.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "BundledLegal/privacidad.html"; sourceTree = "<group>"; };
+		FR18 /* soporte.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "BundledLegal/soporte.html"; sourceTree = "<group>"; };
+		FR19 /* LegalLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalLinks.swift; sourceTree = "<group>"; };
+		FR20 /* BundledLegalWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundledLegalWebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FP01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		GR01 = {
+			isa = PBXGroup;
+			children = (
+				GR02 /* CalculadoraMateriales */,
+				GR03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		GR02 /* CalculadoraMateriales */ = {
+			isa = PBXGroup;
+			children = (
+				FR01 /* CalculadoraMaterialesApp.swift */,
+				FR02 /* ContentView.swift */,
+				FR13 /* MainTabView.swift */,
+				FR04 /* EstimateModels.swift */,
+				FR05 /* MaterialCalculators.swift */,
+				FR06 /* TradeScreens.swift */,
+				FR07 /* KeychainHelper.swift */,
+				FR08 /* AISettings.swift */,
+				FR09 /* CalculationSnapshotStore.swift */,
+				FR10 /* ShareExport.swift */,
+				FR11 /* AssistantView.swift */,
+				FR12 /* SettingsView.swift */,
+				FR15 /* SubscriptionManager.swift */,
+				FR16 /* SubscriptionGateView.swift */,
+				FR19 /* LegalLinks.swift */,
+				FR20 /* BundledLegalWebView.swift */,
+				FR17 /* privacidad.html */,
+				FR18 /* soporte.html */,
+				FR14 /* CalcObra.storekit */,
+				FR03 /* Assets.xcassets */,
+			);
+			path = CalculadoraMateriales;
+			sourceTree = "<group>";
+		};
+		GR03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FR00 /* CalculadoraMateriales.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		NT01 /* CalculadoraMateriales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCL02 /* Build configuration list for PBXNativeTarget "CalculadoraMateriales" */;
+			buildPhases = (
+				SBP01 /* Sources */,
+				FP01 /* Frameworks */,
+				RBP01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculadoraMateriales;
+			productName = CalculadoraMateriales;
+			productReference = FR00 /* CalculadoraMateriales.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PR01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					NT01 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BCL01 /* Build configuration list for PBXProject "CalculadoraMateriales" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "es-419";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"es-419",
+			);
+			mainGroup = GR01;
+			productRefGroup = GR03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				NT01 /* CalculadoraMateriales */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RBP01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF03 /* Assets.xcassets in Resources */,
+				BF16 /* privacidad.html in Resources */,
+				BF17 /* soporte.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SBP01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF01 /* CalculadoraMaterialesApp.swift in Sources */,
+				BF02 /* ContentView.swift in Sources */,
+				BF13 /* MainTabView.swift in Sources */,
+				BF04 /* EstimateModels.swift in Sources */,
+				BF05 /* MaterialCalculators.swift in Sources */,
+				BF06 /* TradeScreens.swift in Sources */,
+				BF07 /* KeychainHelper.swift in Sources */,
+				BF08 /* AISettings.swift in Sources */,
+				BF09 /* CalculationSnapshotStore.swift in Sources */,
+				BF10 /* ShareExport.swift in Sources */,
+				BF11 /* AssistantView.swift in Sources */,
+				BF12 /* SettingsView.swift in Sources */,
+				BF14 /* SubscriptionManager.swift in Sources */,
+				BF15 /* SubscriptionGateView.swift in Sources */,
+				BF18 /* LegalLinks.swift in Sources */,
+				BF19 /* BundledLegalWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 56F5B5YMAF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalcObra;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcobra.CalcObra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 56F5B5YMAF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalcObra;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcobra.CalcObra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCL01 /* Build configuration list for PBXProject "CalculadoraMateriales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01 /* Debug */,
+				BC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCL02 /* Build configuration list for PBXNativeTarget "CalculadoraMateriales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC03 /* Debug */,
+				BC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PR01 /* Project object */;
+}

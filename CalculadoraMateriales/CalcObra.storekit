@@ -1,0 +1,67 @@
+{
+  "identifier" : "A1B2C3D4-5E6F-7890-ABCD-EF1234567890",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21507001",
+      "localizations" : [
+
+      ],
+      "name" : "CalcObra Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6741000000001",
+          "introductoryOffer" : {
+            "displayPrice" : "0.00",
+            "internalID" : "6741000000002",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "Asistente IA y funciones Pro. Prueba gratis 1 mes, luego 1,99 USD/mes.",
+              "displayName" : "CalcObra Pro",
+              "locale" : "es_419"
+            }
+          ],
+          "productID" : "calcobra.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "CalcObra Pro Mensual",
+          "subscriptionGroupID" : "21507001",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
