@@ -50,7 +50,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <StoreKitConfigurationFileReference
-         identifier = "../../CalculadoraMateriales/MaterialesObraPro.storekit">
+         identifier = "../../CalculadoraMateriales/TradeMaterialsCalculator.storekit">
       </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction

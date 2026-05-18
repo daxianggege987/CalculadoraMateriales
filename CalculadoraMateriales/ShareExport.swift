@@ -10,7 +10,7 @@ struct ShareExport {
         unitPrices: [UUID: Double]
     ) -> String {
         var lines: [String] = []
-        lines.append("Materiales Obra — \(tradeTitle)")
+        lines.append("Trade Materials Calculator — \(tradeTitle)")
         lines.append("")
         for item in items {
             let unitP = unitPrices[item.id] ?? PricingHints.defaultUnitPrice(for: item.name)

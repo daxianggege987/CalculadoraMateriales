@@ -21,7 +21,7 @@
       "localizations" : [
 
       ],
-      "name" : "Materiales Obra Pro",
+      "name" : "Trade Materials Calculator",
       "subscriptions" : [
         {
           "adHocOffers" : [
@@ -44,13 +44,13 @@
           "localizations" : [
             {
               "description" : "Asistente IA y funciones Pro. Prueba gratis 1 mes, luego 1,99 USD/mes.",
-              "displayName" : "Materiales Obra Pro",
+              "displayName" : "Trade Materials Calculator",
               "locale" : "es_419"
             }
           ],
           "productID" : "calcobra.pro.monthly",
           "recurringSubscriptionPeriod" : "P1M",
-          "referenceName" : "Materiales Obra Pro Mensual",
+          "referenceName" : "Trade Materials Calculator Monthly",
           "subscriptionGroupID" : "21507001",
           "type" : "RecurringSubscription",
           "winbackOffers" : [

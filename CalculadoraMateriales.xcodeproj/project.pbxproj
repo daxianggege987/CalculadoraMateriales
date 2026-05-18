@@ -43,7 +43,7 @@
 		FR11 /* AssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantView.swift; sourceTree = "<group>"; };
 		FR12 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		FR13 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		FR14 /* MaterialesObraPro.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = MaterialesObraPro.storekit; sourceTree = "<group>"; };
+		FR14 /* TradeMaterialsCalculator.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = TradeMaterialsCalculator.storekit; sourceTree = "<group>"; };
 		FR15 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
 		FR16 /* SubscriptionGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionGateView.swift; sourceTree = "<group>"; };
 		FR17 /* BundledLegal/privacidad.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BundledLegal/privacidad.html; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 				FR20 /* BundledLegalWebView.swift */,
 				FR17 /* BundledLegal/privacidad.html */,
 				FR18 /* BundledLegal/soporte.html */,
-				FR14 /* MaterialesObraPro.storekit */,
+				FR14 /* TradeMaterialsCalculator.storekit */,
 				FR03 /* Assets.xcassets */,
 			);
 			path = CalculadoraMateriales;
@@ -317,7 +317,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Materiales Obra Pro";
+				INFOPLIST_KEY_CFBundleDisplayName = "Trade Materials Calculator";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -351,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Materiales Obra Pro";
+				INFOPLIST_KEY_CFBundleDisplayName = "Trade Materials Calculator";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

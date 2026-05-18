@@ -23,7 +23,7 @@ struct ContentView: View {
                     .padding(.vertical, 6)
                 }
             }
-            .navigationTitle("Materiales Obra Pro")
+            .navigationTitle("Trade Materials Calculator")
             .navigationBarTitleDisplayMode(.large)
         }
         .navigationViewStyle(StackNavigationViewStyle())

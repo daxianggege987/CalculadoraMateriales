@@ -23,7 +23,7 @@ struct SubscriptionGateView: View {
                     .ignoresSafeArea()
                 ScrollView {
                     VStack(alignment: .leading, spacing: roomy ? 28 : 22) {
-                        Text("Materiales Obra Pro")
+                        Text("Trade Materials Calculator")
                             .font(roomy ? .system(size: 40, weight: .bold) : .largeTitle.bold())
                         Text("Suscríbete para usar la app: calculadoras de obra, lista de materiales y asistente de IA.")
                             .font(roomy ? .title3 : .body)

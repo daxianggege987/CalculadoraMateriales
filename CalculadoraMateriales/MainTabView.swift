@@ -11,7 +11,7 @@ struct MainTabView: View {
                 ZStack {
                     Color(UIColor.systemGroupedBackground)
                         .ignoresSafeArea()
-                    ProgressView("Preparando Materiales Obra Pro…")
+                    ProgressView("Preparando Trade Materials Calculator…")
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else if subscriptionManager.isSubscribed {
