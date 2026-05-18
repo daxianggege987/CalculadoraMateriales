@@ -2,7 +2,7 @@ import Foundation
 import StoreKit
 import Combine
 
-/// StoreKit 2: suscripción mensual; oferta introductoria gratuita 1 mes (App Store Connect o CalcObra.storekit).
+/// StoreKit 2: suscripción mensual; oferta introductoria gratuita 1 mes (App Store Connect o MaterialesObraPro.storekit).
 @MainActor
 final class SubscriptionManager: ObservableObject {
     static let subscriptionProductId = "calcobra.pro.monthly"
@@ -36,7 +36,7 @@ final class SubscriptionManager: ObservableObject {
             let products = try await Product.products(for: [Self.subscriptionProductId])
             product = products.first
             if product == nil {
-                lastErrorMessage = "No se encontró el producto \(Self.subscriptionProductId). Crea el producto en App Store Connect o ejecuta con CalcObra.storekit."
+                lastErrorMessage = "No se encontró el producto \(Self.subscriptionProductId). Crea el producto en App Store Connect o ejecuta con MaterialesObraPro.storekit."
             }
             await refreshEntitlements()
         } catch {

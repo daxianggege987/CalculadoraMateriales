@@ -11,7 +11,7 @@ struct SettingsView: View {
 
     var body: some View {
         Form {
-            Section(header: Text("CalcObra Pro")) {
+            Section(header: Text("Materiales Obra Pro")) {
                 if subscriptionManager.isSubscribed {
                     Label("Suscripción activa", systemImage: "checkmark.seal.fill")
                         .foregroundColor(.green)

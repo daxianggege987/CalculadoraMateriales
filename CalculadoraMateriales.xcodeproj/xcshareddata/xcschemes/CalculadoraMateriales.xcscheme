@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1500"
+   LastUpgradeVersion = "2620"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -50,7 +50,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <StoreKitConfigurationFileReference
-         identifier = "../../CalculadoraMateriales/CalcObra.storekit">
+         identifier = "../../CalculadoraMateriales/MaterialesObraPro.storekit">
       </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction

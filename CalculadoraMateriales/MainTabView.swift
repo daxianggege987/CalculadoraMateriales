@@ -11,13 +11,15 @@ struct MainTabView: View {
                 ZStack {
                     Color(UIColor.systemGroupedBackground)
                         .ignoresSafeArea()
-                    ProgressView("Preparando CalcObra…")
+                    ProgressView("Preparando Materiales Obra Pro…")
                 }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else if subscriptionManager.isSubscribed {
                 mainTabs
             } else {
                 SubscriptionGateView()
                     .environmentObject(subscriptionManager)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
     }
